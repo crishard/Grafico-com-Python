@@ -2,7 +2,7 @@
 import matplotlib.pyplot as grf
 
 #definindo título para o gráfico
-grf.title('Faturaamento em 2021')
+grf.title('Faturamento em 2021')
 
 #informações que serão exibidaas no eixo x
 grf.xlabel('Meses')
