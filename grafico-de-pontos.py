@@ -4,10 +4,10 @@ import matplotlib.pyplot as grf
 #definindo título para o gráfico
 grf.title('Faturaamento em 2021')
 
-#informações eixo x
+#informações que serão exibidaas no eixo x
 grf.xlabel('Meses')
 
-#informações eixo y
+#informações que serão exibidas no eixo y
 grf.ylabel('Faturamento em R$')
 
 #criando as listas de dados
@@ -15,10 +15,8 @@ meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'a
 
 valores = [520, 245, 322, 587, 360, 142, 189, 680, 470, 155, 169, 520]
 
-#escolhendo o gráfico
-""""grf.scatter para grafico de pontos
-    grf.plot para grafico de linhas"""
-grf.bar(meses, valores)
+#utilizando gráfico de pontos
+grf.scatter(meses, valores)
 
 #chamando função para apresentar o gráfico
 grf.show()
