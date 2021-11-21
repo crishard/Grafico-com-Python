@@ -15,10 +15,6 @@ meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'a
 
 valores = [520, 245, 322, 587, 360, 142, 189, 680, 470, 155, 169, 520]
 
-#escolhendo o modelo do gráfico gráfico 
-""""grf.scatter para grafico de pontos
-    grf.plot para grafico de linhas"""
-
 #utilizando gráfico de barras
 grf.bar(meses, valores)
 
