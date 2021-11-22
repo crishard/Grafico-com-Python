@@ -12,7 +12,6 @@ grf.ylabel('Faturamento em R$')
 
 #criando as listas de dados
 meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
-
 valores = [520, 245, 322, 587, 360, 142, 189, 680, 470, 155, 169, 520]
 
 #utilizando gráfico de barras
