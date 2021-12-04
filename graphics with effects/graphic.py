@@ -13,5 +13,5 @@ plt.plot([1, 5, 3, 7], linewidth=10, color='green',
 plt.title('Path effects')
 
 #salvando e mostrando a imagem
-plt.savefig('path_effects,jpeg')
+plt.savefig('path_effects.jpeg')
 plt.show()
